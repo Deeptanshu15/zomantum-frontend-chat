@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body{
+  height: 100vh;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #b0c7d2;
+  overflow: hidden;
+  margin: 0;
+  height: 100vh;
+  font-family: Poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.App{
+  background: #222;
+  display: flex;
+  padding:0;
+  height: 100vh;
+}
+
+
+.contacts{
+  margin: 0;
+  background: #1C2430;
+  height: 100vh;
+  flex-basis: 26rem;
+  padding: 2rem 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px #394454 solid;
+  overflow-y: scroll;
+}
+
+
+.you{
+  background: #1F2938;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 3rem;
+  
+}
+
+.your-img{
+  height: 100px;
+  width: 100px;
+  float: left;
+  border-radius: 50%;
+  border: 5px #394454 solid;
+}
+
+.your-details{
+  margin-left: 1rem;
+  float: left;
+}
+
+.you h2{
+  display: inline-block;
+  margin:0;
+  padding:0;
+  color: #00BA56;
+}
+
+.people-list {
+  margin:0;
+  padding: 0 1rem;
+  flex-grow: 1;
+}
+
+.people{
+  background: #1a1d29;
+  margin-bottom: 0.5rem;
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+
+.chat{
+  background: #1E1F20;
+  height: 100vh;
+  flex-grow:3;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.chat-top{
+  background: #293444;
+  font-size: 2rem;
+  padding: 1rem 3rem;
+}
+
+.chat-img{
+  float: left;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 5px #394454 solid;
+}
+
+.chat-person{
+  margin-left: 2rem;
+  display: inline-block;
+}
+
+.chat-person div{
+  font-size: 1rem;
+  font-weight: 200;
+  display: inline;
+}
+
+.chat-area{
+  background: #1F2938;
+  flex-grow: 1;
+  overflow-y: scroll;
+  padding: 3rem 5rem;
+}
+
+.chat-msg-area{
+  background: #293444;
+  font-size: 1.5rem;
+  padding: 0.6rem 3rem;
+}
+
+input:focus{
+  outline: none;
+  border: 4px #00BA56 solid;
+}
+
+.msg-input{
+  background: #1F2938;
+  font-size: 1.5rem;
+  width: stretch;
+  padding: 0.5rem 1rem;
+  border: 4px #43495b solid;
+  color: #00BA56;
+  border-radius: 2rem;
+}
