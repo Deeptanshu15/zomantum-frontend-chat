@@ -17,7 +17,7 @@ I have also included **ScreenShots** in the repository for your reference.
 
 ## App ScreenShot
 
-![alt text](https://github.com/Deeptanshu15/zomantum-frontend-chat/blob/ScreenShots Chat App/Welcome-Page.png?raw=true)
+![alt text](https://github.com/Deeptanshu15/zomantum-frontend-chat/ScreenShots Chat App/Welcome-Page.png?raw=true)
 
 ## App Highlights -
 A chat app frontend where user can view contacts and select contacts by clicking on them to start a conversation. 
