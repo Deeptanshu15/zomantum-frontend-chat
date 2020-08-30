@@ -6,6 +6,8 @@ Chat App (Front-end) using React.JS. (Assignment)
 
 **Jaypee Institute of Information Technology**
 
+**Major Skills** - React.js, Node.js, Express.js, Sass/Scss, Bootstrap, Python, Linux. 
+
 ## Live Application url -
 ## https://deeptanshu15.github.io/zomantum-frontend-chat/
 
