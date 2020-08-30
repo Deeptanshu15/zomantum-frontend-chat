@@ -35,6 +35,9 @@ The Application Runs at **localhost:3000**
 
 ## Application Design - 
 The app is the top component, Which has Contacts and Chat component.
+
 Chat component maintains logic for chat display and composing and sending messages(appending to message list).
+
 The Contact Component maintains user's contacts(displaying and selecting contact to chat).
+
 Other components such as ChatArea , People receive props from parents.
