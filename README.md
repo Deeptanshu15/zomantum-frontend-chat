@@ -1,5 +1,5 @@
 # zomantum-frontend-chat
-Chat App (Front-end) using React.JS.
+Chat App (Front-end) using React.JS. (Assignment)
 
 ## Developed By - 
 **Deeptanshu Sharma**
