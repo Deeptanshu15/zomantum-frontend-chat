@@ -7,7 +7,7 @@ Chat App (Front-end) using React.JS.
 **Jaypee Institute of Information Technology**
 
 ## Live Application url -
-###### https://deeptanshu15.github.io/zomantum-frontend-chat/
+## https://deeptanshu15.github.io/zomantum-frontend-chat/
 
 This URL has the application deployed in. You can visit this URL to see my Application live.
 
