@@ -4,7 +4,7 @@ Chat App (Front-end) using React.JS. (Assignment)
 ## Developed By - 
 **Deeptanshu Sharma**
 
-**Jaypee Institute of Information Technology**
+**Jaypee Institute of Information Technology, Noida**
 
 **Major Skills** - React.js, Node.js, Express.js, Sass/Scss, Bootstrap, Python, Linux. 
 
