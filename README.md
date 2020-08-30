@@ -13,6 +13,8 @@ This URL has the application deployed in. You can visit this URL to see my Appli
 
 View The Application in **Desktop/Laptop** as I haven't made it mobile friendly yet.
 
+I have also included **ScreenShots** in the repository for your reference.
+
 ## App Highlights -
 A chat app frontend where user can view contacts and select contacts by clicking on them to start a conversation. 
 
