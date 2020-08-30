@@ -13,7 +13,7 @@ This URL has the application deployed in. You can visit this URL to see my **App
 
 View The Application in **Desktop/Laptop** as I haven't made it mobile friendly yet.
 
-I have also included **ScreenShots** in the repository for your reference.
+I have also included **ScreenShots** and **ScreenCast Videos** in the repository for your reference.
 
 ## App ScreenShots - 
 
