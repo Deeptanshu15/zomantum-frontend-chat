@@ -6,6 +6,13 @@ Chat App (Front-end) using React.JS.
 
 **Jaypee Institute of Information Technology**
 
+## App Highlights -
+A chat app frontend where user can view contacts and select contacts by clicking on them to start a conversation. 
+
+App has a dedicated Chat Area on right side where user can view conversation with the currently selected contact. 
+
+**I have also included the functionality to compose and append(send) new messages to the list of messages in currently active conversation. (as mentioned in the assignment)**. user can switch between conversation and can view or send messages to the corresponding contact.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
