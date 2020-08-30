@@ -2,12 +2,12 @@ import React from 'react'
 import You from './You';
 import People from './People';
 
-function Contacts() {
+function Contacts(props) {
     return (
         <div className="contacts">
-            <You />
+            <You setContact={props.setContact} />
 
-            <People />
+            <People setContact={props.setContact} contacts={props.contacts} />
         </div>
     )
 }
