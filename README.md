@@ -15,7 +15,9 @@ View The Application in **Desktop/Laptop** as I haven't made it mobile friendly 
 
 I have also included **ScreenShots** in the repository for your reference.
 
-## App ScreenShot
+## App ScreenShots - 
+
+![alt text](https://raw.githubusercontent.com/Deeptanshu15/zomantum-frontend-chat/master/ScreenShots%20Chat%20App/Welcome-Page.png)
 
 ![alt text](https://raw.githubusercontent.com/Deeptanshu15/zomantum-frontend-chat/master/ScreenShots%20Chat%20App/Chat-Area-with-Another-contact.png)
 
