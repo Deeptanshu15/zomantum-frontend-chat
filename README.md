@@ -15,6 +15,10 @@ View The Application in **Desktop/Laptop** as I haven't made it mobile friendly 
 
 I have also included **ScreenShots** in the repository for your reference.
 
+## App ScreenShot
+
+![alt text](https://github.com/Deeptanshu15/zomantum-frontend-chat/blob/ScreenShot Chat App/
+
 ## App Highlights -
 A chat app frontend where user can view contacts and select contacts by clicking on them to start a conversation. 
 
