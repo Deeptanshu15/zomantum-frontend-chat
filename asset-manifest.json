@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/zomantum-frontend-chat/static/css/main.69f417e0.chunk.css",
+    "main.js": "/zomantum-frontend-chat/static/js/main.4aaad74a.chunk.js",
+    "main.js.map": "/zomantum-frontend-chat/static/js/main.4aaad74a.chunk.js.map",
+    "runtime-main.js": "/zomantum-frontend-chat/static/js/runtime-main.5e257743.js",
+    "runtime-main.js.map": "/zomantum-frontend-chat/static/js/runtime-main.5e257743.js.map",
+    "static/js/2.76fe5839.chunk.js": "/zomantum-frontend-chat/static/js/2.76fe5839.chunk.js",
+    "static/js/2.76fe5839.chunk.js.map": "/zomantum-frontend-chat/static/js/2.76fe5839.chunk.js.map",
+    "index.html": "/zomantum-frontend-chat/index.html",
+    "precache-manifest.08022a7e00e6486f224a1d6b7fc926a6.js": "/zomantum-frontend-chat/precache-manifest.08022a7e00e6486f224a1d6b7fc926a6.js",
+    "service-worker.js": "/zomantum-frontend-chat/service-worker.js",
+    "static/css/main.69f417e0.chunk.css.map": "/zomantum-frontend-chat/static/css/main.69f417e0.chunk.css.map",
+    "static/js/2.76fe5839.chunk.js.LICENSE.txt": "/zomantum-frontend-chat/static/js/2.76fe5839.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e257743.js",
+    "static/js/2.76fe5839.chunk.js",
+    "static/css/main.69f417e0.chunk.css",
+    "static/js/main.4aaad74a.chunk.js"
+  ]
+}
