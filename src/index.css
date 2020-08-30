@@ -4,6 +4,7 @@ html, body{
   height: 100vh;
   margin:0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 body {
@@ -40,7 +41,7 @@ code {
   display: flex;
   flex-direction: column;
   border-right: 2px #394454 solid;
-  overflow-y: scroll;
+  
 }
 
 
@@ -50,6 +51,11 @@ code {
   padding: 2rem;
   border-radius: 3rem;
   
+}
+
+.you:hover{
+  cursor: pointer;
+  background: rgb(38, 50, 68);
 }
 
 .your-img{
@@ -66,32 +72,157 @@ code {
 }
 
 .you h2{
-  display: inline-block;
+  display: inline;
+  font-size: 1.2rem;
   margin:0;
   padding:0;
   color: #00BA56;
+}
+
+.you span{
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+
+.displayAbout{
+  margin: 0;
+  padding: 0;
+  margin-top: 0.6rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+  width: fit-content;
+  max-width: 9rem;
 }
 
 .people-list {
   margin:0;
   padding: 0 1rem;
   flex-grow: 1;
+  overflow-y: scroll;
 }
 
 .people{
   background: #1a1d29;
   margin-bottom: 0.5rem;
-  padding: 2rem;
+  padding: 1rem 2rem;
   border-radius: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.people:hover{
+  cursor: pointer;
+  /*border-radius: 5px;*/
+  background: #161822;
+  
+}
+
+.contact-selected{
+  border-radius: 5px;
+  
+}
+
+.contact-detail{
+  margin-left: 1.5rem;
+}
+
+.contact-name{
+  color: #00ABFF;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.contact-about{
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  width: fit-content;
+  max-width: 10rem;
+  
+}
+
+.contact-img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px #394454 solid;
 }
 
 .chat{
-  background: #1E1F20;
+  background: #1a1d29;
   height: 100vh;
   flex-grow:3;
   display: flex;
   flex-direction: column;
   
+}
+
+.chat-welcome{
+  background: #1a1d29;
+  height: 100vh;
+  flex-grow:3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.welcome-msg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr{
+  width: 30%;
+  size: 1px;
+  color: #43495b;
+}
+
+.welcome-msg div{
+  color: #00ABFF;
+  margin-top: 1.5rem;
+}
+
+.welcome-msg span{
+  color: #00BA56;
+}
+
+.welcome-img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px #394454 solid;
+}
+
+.search-contact{
+  width: 20rem;
+  margin-top: 1.2rem;
+  background: #161822;
+  color: #00ABFF;
+  border: 3px #43495b solid;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+}
+
+.search-contact:focus{
+  border: 3px #00ABFF solid;
+}
+
+
+.search-btn{
+  margin-top: 1rem;
+  border: 0;
+  font-weight: 900;
+  padding: 0.8rem 1.6rem;
+  border-radius: 3rem;
+  background: #00ABFF;
+  color: #1a1d29;
+  border: 2px #00ABFF solid;
 }
 
 .chat-top{
@@ -102,8 +233,8 @@ code {
 
 .chat-img{
   float: left;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   border: 5px #394454 solid;
 }
@@ -111,25 +242,76 @@ code {
 .chat-person{
   margin-left: 2rem;
   display: inline-block;
+  font-weight: 500;
 }
 
-.chat-person div{
+.chat-top span{
   font-size: 1rem;
-  font-weight: 200;
-  display: inline;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  margin-left: 2rem;
 }
 
 .chat-area{
   background: #1F2938;
-  flex-grow: 1;
+  flex-basis: 100%;
   overflow-y: scroll;
   padding: 3rem 5rem;
+}
+
+.message-container{
+  width: 100%;
+  overflow: auto;
+}
+
+.message-o{
+  float: right;
+  background: #00BA56;
+  font-weight: 400;
+  font-size: 0.8rem;
+  padding: 0.5rem 1.5rem;
+  color: #1a1d29;
+  margin-bottom: 1rem;
+  width: fit-content;
+  max-width: 60%;
+  border-radius: 16px 16px 3px 16px;
+}
+
+.message-i{
+  background: #00ABFF;
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 0.5rem 1.5rem;
+  color: #1a1d29;
+  margin-bottom: 1rem;
+  width: fit-content;
+  max-width: 60%;
+  border-radius: 16px 16px 16px 3px;
 }
 
 .chat-msg-area{
   background: #293444;
   font-size: 1.5rem;
   padding: 0.6rem 3rem;
+  flex-basis: 5rem;
+  display: flex;
+}
+
+.send-btn{
+  display: inline;
+  color: #1a1d29;
+  margin-left: 2rem;
+  background: #00BA56;
+  border: 0;
+  padding: 0 2rem;
+  border-radius: 3rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+button:focus{
+  outline: none;
 }
 
 input:focus{
@@ -139,10 +321,11 @@ input:focus{
 
 .msg-input{
   background: #1F2938;
-  font-size: 1.5rem;
-  width: stretch;
-  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  flex-basis: 100%;
+  padding: 0.8rem 1rem;
   border: 4px #43495b solid;
   color: #00BA56;
   border-radius: 2rem;
 }
+
