@@ -3,6 +3,7 @@ Chat App (Front-end) using React.JS.
 
 ## Developed By - 
 **Deeptanshu Sharma**
+
 **Jaypee Institute of Information Technology**
 
 
