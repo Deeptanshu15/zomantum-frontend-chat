@@ -28,7 +28,7 @@ A chat app frontend where user can view contacts and select contacts by clicking
 
 App has a dedicated Chat Area on right side where user can view conversation with the currently selected contact. 
 
-**I have also included the functionality to compose and append(send) new messages to the list of messages in currently active conversation. (as mentioned in the assignment)**. user can switch between conversation and can view or send messages to the corresponding contact.
+**I have also included the functionality to append messages for each user when you click on the send message button in currently active conversation. (as mentioned in the assignment)**. user can switch between conversation and can view or send messages to the corresponding contact.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
