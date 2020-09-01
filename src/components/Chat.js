@@ -106,7 +106,9 @@ const Chat = (props) => {
             contactID: props.contact.id,
             msg: msg
         }
-        setMessages([...messages, temp])
+        if(msg.length>0){
+            setMessages([...messages, temp])
+        }
         
     }
 
